@@ -35,7 +35,7 @@ const SlideItem = ({ fruit, isActive }: SlideItemProps) => {
             <motion.h1
               className="absolute inset-0 flex items-center justify-center font-black select-none pointer-events-none z-0 -translate-y-10 md:-translate-y-14 lg:-translate-y-16"
               style={{
-                fontSize: "clamp(30rem, 38vw, 65rem)",
+                fontSize: "clamp(20rem, 38vw, 65rem)",
                 backgroundImage: `url(${fruit.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
