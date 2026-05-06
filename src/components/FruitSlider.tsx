@@ -17,6 +17,7 @@ const FruitSlider = () => {
         pagination={{ clickable: true }}
         speed={900}
         loop={false}
+        
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         style={{ height: '100%', width: '100%' }}
       >

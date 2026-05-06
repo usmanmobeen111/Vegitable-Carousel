@@ -3,10 +3,10 @@ import { LuLeaf } from 'react-icons/lu';
 const Navbar = () => {
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-5"
+      className="fixed top-0 left-0 right-0 z-50 flex items-center px-6 md:px-12 pt-10 pb-5 h-28 justify-center"
       style={{
         background:
-          'linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%)',
+          'linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%)',
       }}
     >
       {/* Logo */}
