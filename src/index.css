@@ -8,3 +8,45 @@
   --font-roboto: 'Roboto', sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+/* ─── Swiper Pagination ─── */
+.swiper-pagination {
+  bottom: 2.2rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: rgba(180, 180, 180, 0.5) !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(255, 255, 255, 0.95) !important;
+  width: 26px !important;
+  height: 8px !important;
+  border-radius: 4px !important;
+}
